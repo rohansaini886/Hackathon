@@ -1,0 +1,31 @@
+.typing {
+  font-size: calc(10px + 2vw);
+  font-family: "VT323", monospace, sans-serif;
+  color: #3f3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.typing {
+  position: relative;
+}
+.typing::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  width: 100%;
+  color: white;
+  background: #1d1f20;
+  animation: typing 4s steps(16) forwards, caret 1s infinite;
+}
+
+@keyframes typing {
+  to {
+    width: 0;
+  }
+}
+@keyframes caret {
+  50% {
+    color: transparent;
+  }
+}/*# sourceMappingURL=style2.css.map */
