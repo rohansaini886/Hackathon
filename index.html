@@ -61,6 +61,7 @@
 
   <!-- color scheme -->
   <link rel="stylesheet" href="./files/magenta.css" type="text/css" id="colors" />
+
   <!-- RS5.0 Stylesheet -->
   <link rel="stylesheet" href="./files/settings.css" type="text/css" />
   <link rel="stylesheet" href="./files/layers.css" type="text/css" />
@@ -70,6 +71,12 @@
 
   <!-- custom font -->
   <link rel="stylesheet" href="./files/font-style.css" type="text/css" />
+  <style type="text/css">
+    @font-face {
+      font-family: Roboto;
+      src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf");
+    }
+  </style>
 </head>
 
 <body id="homepage" style="display: block">
@@ -728,12 +735,21 @@
       </div> -->
       <!-- revolution slider close -->
 
-      <section id="section-countdown" aria-label="section" class="gradient-to-right pt40 pb40">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-10 offset-md-1">
-              <div class="spacer-single"></div>
-              <div id="defaultCountdown"></div>
+      <section id="section-countdown" aria-label="section" class="gradient-to-right pt40 pb40"
+        style="background-size: cover">
+        <div class="container" style="background-size: cover">
+          <div class="row" style="background-size: cover">
+            <div class="col-md-10 offset-md-1" style="background-size: cover">
+              <div class="spacer-single" style="background-size: cover"></div>
+              <div id="defaultCountdown" class="is-countdown" style="background-size: cover">
+                <span class="countdown-row countdown-show4"><span class="countdown-section"><span
+                      class="countdown-amount">2</span><span class="countdown-period">Days</span></span><span
+                    class="countdown-section"><span class="countdown-amount">3</span><span
+                      class="countdown-period">Hours</span></span><span class="countdown-section"><span
+                      class="countdown-amount">5</span><span class="countdown-period">Minutes</span></span><span
+                    class="countdown-section"><span class="countdown-amount">28</span><span
+                      class="countdown-period">Seconds</span></span></span>
+              </div>
             </div>
           </div>
         </div>
@@ -2012,16 +2028,102 @@
               <div class="questions-container" style="background-size: cover">
                 <div class="content-container" style="background-size: cover">
                   <div class="faq-header" style="background-size: cover">
-                    <div style="background-size: cover">What is Vihaan?</div>
+                    <div style="background-size: cover">Can anyone participate in this hackathon?</div>
                     <span class="open active">+</span>
                     <span class="close">-</span>
                   </div>
 
                   <div class="content" style="background-size: cover">
                     <p>
-                      Vihaan is a national level hackathon to challenge your
-                      creative potential and build innovative solutions to
-                      existing problems.
+                      Students enrolled in any UG courses in Kurukshetra University can participate in
+                      “INNOVATE-A-THON”.
+                    </p>
+                  </div>
+                </div>
+                <div class="content-container" style="background-size: cover">
+                  <div class="faq-header" style="background-size: cover">
+                    <div style="background-size: cover">Is there any prerequisites for participating?</div>
+                    <span class="open active">+</span>
+                    <span class="close">-</span>
+                  </div>
+
+                  <div class="content" style="background-size: cover">
+                    <p>
+                      All the members of the team must be from the same college.
+                    </p>
+                  </div>
+                </div>
+                <div class="content-container" style="background-size: cover">
+                  <div class="faq-header" style="background-size: cover">
+                    <div style="background-size: cover">Is it a team competition, can't I participate alone?</div>
+                    <span class="open active">+</span>
+                    <span class="close">-</span>
+                  </div>
+
+                  <div class="content" style="background-size: cover">
+                    <p>
+                      It is mandatory for each team to have 4 members.
+                      But in open innovation, Students can opt for individual or group (not exceeding 4 members in a
+                      team)
+                    </p>
+                  </div>
+                </div>
+                <div class="content-container" style="background-size: cover">
+                  <div class="faq-header" style="background-size: cover">
+                    <div style="background-size: cover">
+                      What's the prize if you end up winning? Give me some
+                      Incentive.</div>
+                    <span class="open active">+</span>
+                    <span class="close">-</span>
+                  </div>
+
+                  <div class="content" style="background-size: cover">
+                    <p>
+                      There is a butt load of a cash prize and swags up for
+                      grabs. Further details will be released soon.
+                    </p>
+                  </div>
+                </div>
+                <div class="content-container" style="background-size: cover">
+                  <div class="faq-header" style="background-size: cover">
+                    <div style="background-size: cover">
+                      How many teams will be shortlisted per problem statement?</div>
+                    <span class="open active">+</span>
+                    <span class="close">-</span>
+                  </div>
+
+                  <div class="content" style="background-size: cover">
+                    <p>
+                      Four teams will be shortlisted for each problem statement.
+                    </p>
+                  </div>
+                </div>
+                <div class="content-container" style="background-size: cover">
+                  <div class="faq-header" style="background-size: cover">
+                    <div style="background-size: cover">
+                      Can I change the team after registration?
+                    </div>
+                    <span class="open active">+</span>
+                    <span class="close">-</span>
+                  </div>
+
+                  <div class="content" style="background-size: cover">
+                    <p>
+                      You will not be allowed to make any changes to your team structure once registered.
+                    </p>
+                  </div>
+                </div>
+                <div class="content-container" style="background-size: cover">
+                  <div class="faq-header" style="background-size: cover">
+                    <div style="background-size: cover">
+                      How do I know if my idea has been selected or shortlisted?</div>
+                    <span class="open active">+</span>
+                    <span class="close">-</span>
+                  </div>
+
+                  <div class="content" style="background-size: cover">
+                    <p>
+                      Shortlisted teams will be notified about any important updates through email or WhatsApp.
                     </p>
                   </div>
                 </div>
@@ -2361,8 +2463,6 @@
       <script src="./files/designesia.js"></script>
       <script src="./files/validation.js"></script>
       <script src="./files/countdown-custom.js"></script>
-      <script src="/js/jquery.plugin.js"></script>
-      <script src="/js/jquery.countdown.js"></script>
       <script src="./files/faq.js"></script>
       <script src="./files/script.js"></script>
       <!-- Main Scripts -->
